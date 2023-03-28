@@ -8,9 +8,9 @@ import Elections.Party.flag;
 
 public class Database {
 	private static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";
-	private static final String DB_URL = "jdbc:mysql://localhost:3306/autoelectiondb";
-	private static final String USER = "root";
-	private static final String PASS = "1963";
+	private static final String DB_URL = "jdbc:mysql://localhost:3306/<your_database_name>";
+	private static final String USER = "<your_user_name";
+	private static final String PASS = "<your_password>";
 
 	private Connection conn = null;
 	private Statement stmt = null;
